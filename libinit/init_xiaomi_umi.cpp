@@ -18,7 +18,6 @@ static const variant_info_t umi_info = {
     .marketname = "",
     .model = "Mi 10",
     .build_fingerprint = "Xiaomi/umi_global/umi:13/RKQ1.211001.001/V816.0.3.0.TJBMIXM:user/release-keys",
-
     .nfc = true,
 };
 
