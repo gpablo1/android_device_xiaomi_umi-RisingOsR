@@ -33,6 +33,10 @@ ro.hardware.audio.primary=umi
 # Display
 ro.surface_flinger.set_touch_timer_ms=200
 vendor.display.defer_fps_frame_count=2
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+ro.sf.lcd_density=400
+ro.display.type=amoled
+persist.sys.qcom-brightness-dim=1
 
 # Fingerprint
 persist.vendor.fingerprint.type=udfps_optical
