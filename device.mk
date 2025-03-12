@@ -71,6 +71,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.config.always_on_display=true
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/umi/umi-vendor.mk)
 
